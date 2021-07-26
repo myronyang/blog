@@ -483,6 +483,11 @@ fetchAddressLists() {
 - refactor：重构（即不是新增功能，也不是修改bug的代码变动）
 - test：增加测试
 - chore：构建过程或辅助工具的变动
+- revert：撤销修改
+- ci：持续集成
+- mod：不确定修改的分类
+- wip：开发中
+- types：修改类型
 
 #### 3. subject  是commit代码的简短描述，末尾不加标点符号
 

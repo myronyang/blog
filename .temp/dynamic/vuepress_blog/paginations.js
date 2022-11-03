@@ -43,19 +43,19 @@ export default [{
 },
 {
   pid: "tag",
-  id: "Webpack",
+  id: "工具",
   filter: filters.tag,
   sorter: sorters.tag,
-  pages: [{"path":"/tag/Webpack/","interval":[0,1]}],
+  pages: [{"path":"/tag/工具/","interval":[0,2]}],
   prevText: "Prev",
   nextText: "Next",
 },
 {
   pid: "tag",
-  id: "工具",
+  id: "Webpack",
   filter: filters.tag,
   sorter: sorters.tag,
-  pages: [{"path":"/tag/工具/","interval":[0,2]}],
+  pages: [{"path":"/tag/Webpack/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 }]

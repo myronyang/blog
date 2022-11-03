@@ -15,10 +15,11 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "Readme.md",
-      "key": "v-2cf116e1",
+      "key": "v-2e4a6e1f",
       "path": "/",
       "summary": " Hi, I'm Peng Yang\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan ...",
-      "lastUpdated": "2/24/2021, 5:13:42 PM"
+      "lastUpdated": "6/9/2021, 3:31:12 PM",
+      "lastUpdatedTimestamp": 1623223872000
     },
     {
       "title": "JS异步",
@@ -34,7 +35,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/2018-10-27-javascript-async.html",
       "relativePath": "_posts/2018-10-27-javascript-async.md",
-      "key": "v-27d9570d",
+      "key": "v-f17081e2",
       "path": "/2018/10/27/javascript-async/",
       "headers": [
         {
@@ -96,7 +97,8 @@ export const siteData = {
       "summary": "JS 为何会有异步\nJS 是单线程的语言，所谓“单线程”就是一根筋，对于拿到的程序，一行一行的执行，上面的没执行为完，那就等着。\n`js\nvar i,\n\tt = Date.now()\nfor (i = 0; i < 100000000; i++) {\n\t// ...\n}\nconsole.log(Date.now() - t) // 250\n` ...",
       "id": "blog",
       "pid": "blog",
-      "lastUpdated": "2/24/2021, 10:54:06 PM"
+      "lastUpdated": "6/9/2021, 3:31:12 PM",
+      "lastUpdatedTimestamp": 1623223872000
     },
     {
       "title": "JS闭包",
@@ -112,7 +114,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/2018-9-25-javascript-closure.html",
       "relativePath": "_posts/2018-9-25-javascript-closure.md",
-      "key": "v-bddd1db2",
+      "key": "v-42f43eae",
       "path": "/2018/09/25/javascript-closure/",
       "headers": [
         {
@@ -149,70 +151,8 @@ export const siteData = {
       "summary": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
       "id": "blog",
       "pid": "blog",
-      "lastUpdated": "2/25/2021, 1:31:05 AM"
-    },
-    {
-      "title": "JS原型",
-      "frontmatter": {
-        "title": "JS原型",
-        "date": "2018-9-5",
-        "tags": [
-          "Javascript"
-        ],
-        "description": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/2018-9-5-javascript-prototype.html",
-      "relativePath": "_posts/2018-9-5-javascript-prototype.md",
-      "key": "v-103129dd",
-      "path": "/2018/09/05/javascript-prototype/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 2,
-          "title": "函数和对象",
-          "slug": "函数和对象"
-        },
-        {
-          "level": 2,
-          "title": "prototype原型",
-          "slug": "prototype原型"
-        },
-        {
-          "level": 2,
-          "title": "隐式原型",
-          "slug": "隐式原型"
-        },
-        {
-          "level": 2,
-          "title": "instanceof",
-          "slug": "instanceof"
-        },
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 2,
-          "title": "灵活性",
-          "slug": "灵活性"
-        },
-        {
-          "level": 2,
-          "title": "es6中class",
-          "slug": "es6中class"
-        }
-      ],
-      "summary": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "2/25/2021, 1:31:05 AM"
+      "lastUpdated": "6/9/2021, 3:31:12 PM",
+      "lastUpdatedTimestamp": 1623223872000
     },
     {
       "title": "开发规范",
@@ -228,7 +168,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/2018-9-6-business-standard.html",
       "relativePath": "_posts/2018-9-6-business-standard.md",
-      "key": "v-7113c9e7",
+      "key": "v-7cbf6b2e",
       "path": "/2018/09/06/business-standard/",
       "headers": [
         {
@@ -320,7 +260,72 @@ export const siteData = {
       "summary": "BEM思想\nBEM的意思就是块（block）、元素（element）、修饰符（modifier）,是由Yandex团队提出的一种前端命名方法论。这种巧妙的命名方法让你的CSS类对其他开发者来说更加透明而且更有意义。BEM命名约定更加严格，而且包含更多的信息，它们用于一个团队开发一个耗时的大项目。\n命名约定的模式如下：\n` css{3}\n.block{} ...",
       "id": "blog",
       "pid": "blog",
-      "lastUpdated": "2/23/2021, 4:12:01 PM"
+      "lastUpdated": "7/26/2021, 6:05:19 PM",
+      "lastUpdatedTimestamp": 1627293919000
+    },
+    {
+      "title": "JS原型",
+      "frontmatter": {
+        "title": "JS原型",
+        "date": "2018-9-5",
+        "tags": [
+          "Javascript"
+        ],
+        "description": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/2018-9-5-javascript-prototype.html",
+      "relativePath": "_posts/2018-9-5-javascript-prototype.md",
+      "key": "v-7b707e42",
+      "path": "/2018/09/05/javascript-prototype/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 2,
+          "title": "函数和对象",
+          "slug": "函数和对象"
+        },
+        {
+          "level": 2,
+          "title": "prototype原型",
+          "slug": "prototype原型"
+        },
+        {
+          "level": 2,
+          "title": "隐式原型",
+          "slug": "隐式原型"
+        },
+        {
+          "level": 2,
+          "title": "instanceof",
+          "slug": "instanceof"
+        },
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 2,
+          "title": "灵活性",
+          "slug": "灵活性"
+        },
+        {
+          "level": 2,
+          "title": "es6中class",
+          "slug": "es6中class"
+        }
+      ],
+      "summary": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
+      "id": "blog",
+      "pid": "blog",
+      "lastUpdated": "6/9/2021, 3:31:12 PM",
+      "lastUpdatedTimestamp": 1623223872000
     },
     {
       "title": "JS设计模式",
@@ -337,7 +342,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/2019-4-5-javascript-design.html",
       "relativePath": "_posts/2019-4-5-javascript-design.md",
-      "key": "v-0d450c87",
+      "key": "v-5dd18d09",
       "path": "/2019/04/05/javascript-design/",
       "headers": [
         {
@@ -389,36 +394,8 @@ export const siteData = {
       "summary": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
       "id": "blog",
       "pid": "blog",
-      "lastUpdated": "2/25/2021, 1:31:05 AM"
-    },
-    {
-      "title": "Webpack 初始化",
-      "frontmatter": {
-        "title": "Webpack 初始化",
-        "date": "2019-5-28",
-        "tags": [
-          "Webpack",
-          "工具"
-        ],
-        "description": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/2019-5-28-webpack-init.html",
-      "relativePath": "_posts/2019-5-28-webpack-init.md",
-      "key": "v-971aa872",
-      "path": "/2019/05/28/webpack-init/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "webpack 初始化",
-          "slug": "webpack-初始化"
-        }
-      ],
-      "summary": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "2/25/2021, 1:31:05 AM"
+      "lastUpdated": "2/25/2021, 1:31:05 AM",
+      "lastUpdatedTimestamp": 1614187865000
     },
     {
       "title": "常用函数",
@@ -435,7 +412,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/2019-5-29-utils-func.html",
       "relativePath": "_posts/2019-5-29-utils-func.md",
-      "key": "v-9100e232",
+      "key": "v-06774269",
       "path": "/2019/05/29/utils-func/",
       "headers": [
         {
@@ -487,7 +464,38 @@ export const siteData = {
       "summary": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
       "id": "blog",
       "pid": "blog",
-      "lastUpdated": "2/24/2021, 6:43:31 PM"
+      "lastUpdated": "2/24/2021, 6:43:31 PM",
+      "lastUpdatedTimestamp": 1614163411000
+    },
+    {
+      "title": "Webpack 初始化",
+      "frontmatter": {
+        "title": "Webpack 初始化",
+        "date": "2019-5-28",
+        "tags": [
+          "Webpack",
+          "工具"
+        ],
+        "description": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/2019-5-28-webpack-init.html",
+      "relativePath": "_posts/2019-5-28-webpack-init.md",
+      "key": "v-dcfe636e",
+      "path": "/2019/05/28/webpack-init/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webpack 初始化",
+          "slug": "webpack-初始化"
+        }
+      ],
+      "summary": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
+      "id": "blog",
+      "pid": "blog",
+      "lastUpdated": "6/9/2021, 3:31:12 PM",
+      "lastUpdatedTimestamp": 1623223872000
     },
     {
       "frontmatter": {
@@ -537,20 +545,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "FrontmatterPagination",
-        "title": "Webpack Tag"
-      },
-      "regularPath": "/tag/Webpack/",
-      "key": "v-ad8a01a8",
-      "path": "/tag/Webpack/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterPagination",
         "title": "工具 Tag"
       },
       "regularPath": "/tag/%E5%B7%A5%E5%85%B7/",
       "key": "v-97019ce8",
       "path": "/tag/工具/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterPagination",
+        "title": "Webpack Tag"
+      },
+      "regularPath": "/tag/Webpack/",
+      "key": "v-ad8a01a8",
+      "path": "/tag/Webpack/"
     },
     {
       "frontmatter": {
@@ -613,7 +621,7 @@ export const siteData = {
         },
         {
           "type": "web",
-          "link": "http://tjui.glinsunai.com/#/"
+          "link": "https://tjui.netlify.app/#/"
         }
       ],
       "copyright": [

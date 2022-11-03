@@ -8,11 +8,11 @@ export default {
       "scope": "tag",
       "path": "/tag/Javascript/",
       "pageKeys": [
-        "v-27d9570d",
-        "v-bddd1db2",
-        "v-103129dd",
-        "v-0d450c87",
-        "v-9100e232"
+        "v-f17081e2",
+        "v-42f43eae",
+        "v-7b707e42",
+        "v-5dd18d09",
+        "v-06774269"
       ]
     },
     "业务": {
@@ -20,7 +20,7 @@ export default {
       "scope": "tag",
       "path": "/tag/业务/",
       "pageKeys": [
-        "v-7113c9e7"
+        "v-7cbf6b2e"
       ]
     },
     "设计模式": {
@@ -28,15 +28,7 @@ export default {
       "scope": "tag",
       "path": "/tag/设计模式/",
       "pageKeys": [
-        "v-0d450c87"
-      ]
-    },
-    "Webpack": {
-      "key": "Webpack",
-      "scope": "tag",
-      "path": "/tag/Webpack/",
-      "pageKeys": [
-        "v-971aa872"
+        "v-5dd18d09"
       ]
     },
     "工具": {
@@ -44,8 +36,16 @@ export default {
       "scope": "tag",
       "path": "/tag/工具/",
       "pageKeys": [
-        "v-971aa872",
-        "v-9100e232"
+        "v-06774269",
+        "v-dcfe636e"
+      ]
+    },
+    "Webpack": {
+      "key": "Webpack",
+      "scope": "tag",
+      "path": "/tag/Webpack/",
+      "pageKeys": [
+        "v-dcfe636e"
       ]
     }
   }

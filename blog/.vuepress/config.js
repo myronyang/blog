@@ -69,7 +69,7 @@ module.exports = (options, context, api) => {
           },
           {
             type: "web",
-            link: "http://tjui.glinsunai.com/#/",
+            link: "https://tjui.netlify.app/#/",
           },
         ],
         copyright: [

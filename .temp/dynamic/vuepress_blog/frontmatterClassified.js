@@ -8,11 +8,11 @@ export default {
       "scope": "tag",
       "path": "/tag/Javascript/",
       "pageKeys": [
-        "v-f17081e2",
-        "v-42f43eae",
-        "v-7b707e42",
-        "v-5dd18d09",
-        "v-06774269"
+        "v-00ddcb3c",
+        "v-3ee8e8a8",
+        "v-48e6157c",
+        "v-5fbca62e",
+        "v-0831abac"
       ]
     },
     "业务": {
@@ -20,7 +20,7 @@ export default {
       "scope": "tag",
       "path": "/tag/业务/",
       "pageKeys": [
-        "v-7cbf6b2e"
+        "v-2b18b14c"
       ]
     },
     "设计模式": {
@@ -28,7 +28,7 @@ export default {
       "scope": "tag",
       "path": "/tag/设计模式/",
       "pageKeys": [
-        "v-5dd18d09"
+        "v-5fbca62e"
       ]
     },
     "工具": {
@@ -36,8 +36,8 @@ export default {
       "scope": "tag",
       "path": "/tag/工具/",
       "pageKeys": [
-        "v-06774269",
-        "v-dcfe636e"
+        "v-0831abac",
+        "v-689ea80a"
       ]
     },
     "Webpack": {
@@ -45,7 +45,16 @@ export default {
       "scope": "tag",
       "path": "/tag/Webpack/",
       "pageKeys": [
-        "v-dcfe636e"
+        "v-689ea80a"
+      ]
+    },
+    "3D图形": {
+      "key": "3D图形",
+      "scope": "tag",
+      "path": "/tag/3D图形/",
+      "pageKeys": [
+        "v-92bbf354",
+        "v-17d2a884"
       ]
     }
   }

@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "PENG BlOG",
-  "description": "Web development, Frontend, JavaScript",
+  "description": "Web development, WebGL, JavaScript",
   "base": "/",
   "headTags": [],
   "pages": [
@@ -11,13 +11,13 @@ export const siteData = {
       "title": "About",
       "frontmatter": {
         "title": "About",
-        "description": " Hi, I'm Peng Yang\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan ..."
+        "description": " Hi, I'm Peng Yang\n<!--\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in [Wuhan](https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89/10 ..."
       },
       "regularPath": "/",
       "relativePath": "Readme.md",
       "key": "v-2e4a6e1f",
       "path": "/",
-      "summary": " Hi, I'm Peng Yang\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan ...",
+      "summary": " Hi, I'm Peng Yang\n<!--\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in [Wuhan](https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89/10 ...",
       "lastUpdated": "6/9/2021, 3:31:12 PM",
       "lastUpdatedTimestamp": 1623223872000
     },
@@ -33,9 +33,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2018-10-27-javascript-async.html",
-      "relativePath": "_posts/2018-10-27-javascript-async.md",
-      "key": "v-f17081e2",
+      "regularPath": "/_posts/Javascript/2018-10-27-javascript-async.html",
+      "relativePath": "_posts/Javascript/2018-10-27-javascript-async.md",
+      "key": "v-00ddcb3c",
       "path": "/2018/10/27/javascript-async/",
       "headers": [
         {
@@ -96,9 +96,7 @@ export const siteData = {
       ],
       "summary": "JS 为何会有异步\nJS 是单线程的语言，所谓“单线程”就是一根筋，对于拿到的程序，一行一行的执行，上面的没执行为完，那就等着。\n`js\nvar i,\n\tt = Date.now()\nfor (i = 0; i < 100000000; i++) {\n\t// ...\n}\nconsole.log(Date.now() - t) // 250\n` ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "6/9/2021, 3:31:12 PM",
-      "lastUpdatedTimestamp": 1623223872000
+      "pid": "blog"
     },
     {
       "title": "JS闭包",
@@ -112,9 +110,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2018-9-25-javascript-closure.html",
-      "relativePath": "_posts/2018-9-25-javascript-closure.md",
-      "key": "v-42f43eae",
+      "regularPath": "/_posts/Javascript/2018-9-25-javascript-closure.html",
+      "relativePath": "_posts/Javascript/2018-9-25-javascript-closure.md",
+      "key": "v-3ee8e8a8",
       "path": "/2018/09/25/javascript-closure/",
       "headers": [
         {
@@ -150,9 +148,69 @@ export const siteData = {
       ],
       "summary": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "6/9/2021, 3:31:12 PM",
-      "lastUpdatedTimestamp": 1623223872000
+      "pid": "blog"
+    },
+    {
+      "title": "JS原型",
+      "frontmatter": {
+        "title": "JS原型",
+        "date": "2018-9-5",
+        "tags": [
+          "Javascript"
+        ],
+        "description": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/Javascript/2018-9-5-javascript-prototype.html",
+      "relativePath": "_posts/Javascript/2018-9-5-javascript-prototype.md",
+      "key": "v-48e6157c",
+      "path": "/2018/09/05/javascript-prototype/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 2,
+          "title": "函数和对象",
+          "slug": "函数和对象"
+        },
+        {
+          "level": 2,
+          "title": "prototype原型",
+          "slug": "prototype原型"
+        },
+        {
+          "level": 2,
+          "title": "隐式原型",
+          "slug": "隐式原型"
+        },
+        {
+          "level": 2,
+          "title": "instanceof",
+          "slug": "instanceof"
+        },
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 2,
+          "title": "灵活性",
+          "slug": "灵活性"
+        },
+        {
+          "level": 2,
+          "title": "es6中class",
+          "slug": "es6中class"
+        }
+      ],
+      "summary": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
+      "id": "blog",
+      "pid": "blog"
     },
     {
       "title": "开发规范",
@@ -166,9 +224,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2018-9-6-business-standard.html",
-      "relativePath": "_posts/2018-9-6-business-standard.md",
-      "key": "v-7cbf6b2e",
+      "regularPath": "/_posts/Javascript/2018-9-6-business-standard.html",
+      "relativePath": "_posts/Javascript/2018-9-6-business-standard.md",
+      "key": "v-2b18b14c",
       "path": "/2018/09/06/business-standard/",
       "headers": [
         {
@@ -259,73 +317,7 @@ export const siteData = {
       ],
       "summary": "BEM思想\nBEM的意思就是块（block）、元素（element）、修饰符（modifier）,是由Yandex团队提出的一种前端命名方法论。这种巧妙的命名方法让你的CSS类对其他开发者来说更加透明而且更有意义。BEM命名约定更加严格，而且包含更多的信息，它们用于一个团队开发一个耗时的大项目。\n命名约定的模式如下：\n` css{3}\n.block{} ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "7/26/2021, 6:05:19 PM",
-      "lastUpdatedTimestamp": 1627293919000
-    },
-    {
-      "title": "JS原型",
-      "frontmatter": {
-        "title": "JS原型",
-        "date": "2018-9-5",
-        "tags": [
-          "Javascript"
-        ],
-        "description": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/2018-9-5-javascript-prototype.html",
-      "relativePath": "_posts/2018-9-5-javascript-prototype.md",
-      "key": "v-7b707e42",
-      "path": "/2018/09/05/javascript-prototype/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 2,
-          "title": "函数和对象",
-          "slug": "函数和对象"
-        },
-        {
-          "level": 2,
-          "title": "prototype原型",
-          "slug": "prototype原型"
-        },
-        {
-          "level": 2,
-          "title": "隐式原型",
-          "slug": "隐式原型"
-        },
-        {
-          "level": 2,
-          "title": "instanceof",
-          "slug": "instanceof"
-        },
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 2,
-          "title": "灵活性",
-          "slug": "灵活性"
-        },
-        {
-          "level": 2,
-          "title": "es6中class",
-          "slug": "es6中class"
-        }
-      ],
-      "summary": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "6/9/2021, 3:31:12 PM",
-      "lastUpdatedTimestamp": 1623223872000
+      "pid": "blog"
     },
     {
       "title": "JS设计模式",
@@ -340,9 +332,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2019-4-5-javascript-design.html",
-      "relativePath": "_posts/2019-4-5-javascript-design.md",
-      "key": "v-5dd18d09",
+      "regularPath": "/_posts/Javascript/2019-4-5-javascript-design.html",
+      "relativePath": "_posts/Javascript/2019-4-5-javascript-design.md",
+      "key": "v-5fbca62e",
       "path": "/2019/04/05/javascript-design/",
       "headers": [
         {
@@ -393,9 +385,7 @@ export const siteData = {
       ],
       "summary": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "2/25/2021, 1:31:05 AM",
-      "lastUpdatedTimestamp": 1614187865000
+      "pid": "blog"
     },
     {
       "title": "常用函数",
@@ -410,9 +400,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2019-5-29-utils-func.html",
-      "relativePath": "_posts/2019-5-29-utils-func.md",
-      "key": "v-06774269",
+      "regularPath": "/_posts/Javascript/2019-5-29-utils-func.html",
+      "relativePath": "_posts/Javascript/2019-5-29-utils-func.md",
+      "key": "v-0831abac",
       "path": "/2019/05/29/utils-func/",
       "headers": [
         {
@@ -463,9 +453,7 @@ export const siteData = {
       ],
       "summary": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "2/24/2021, 6:43:31 PM",
-      "lastUpdatedTimestamp": 1614163411000
+      "pid": "blog"
     },
     {
       "title": "Webpack 初始化",
@@ -480,9 +468,9 @@ export const siteData = {
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/2019-5-28-webpack-init.html",
-      "relativePath": "_posts/2019-5-28-webpack-init.md",
-      "key": "v-dcfe636e",
+      "regularPath": "/_posts/Javascript/2019-5-28-webpack-init.html",
+      "relativePath": "_posts/Javascript/2019-5-28-webpack-init.md",
+      "key": "v-689ea80a",
       "path": "/2019/05/28/webpack-init/",
       "headers": [
         {
@@ -493,9 +481,61 @@ export const siteData = {
       ],
       "summary": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "6/9/2021, 3:31:12 PM",
-      "lastUpdatedTimestamp": 1623223872000
+      "pid": "blog"
+    },
+    {
+      "title": "向量的相关计算",
+      "frontmatter": {
+        "title": "向量的相关计算",
+        "date": "2022-7-29",
+        "tags": [
+          "3D图形"
+        ],
+        "description": "\n要得到任意维度向量的负向量,只需要简单地将向量地每一个分量变负即可.数学表达式如下.\n`\n-[a1,a2,...,an-1,an] = [-a1,-a2,...,-an-1,-an]\n`\n几何意义： 向量变负，得到跟当前向量大小相等，方向相反的向量. ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/WebGL/2022-7-28-vector.html",
+      "relativePath": "_posts/WebGL/2022-7-28-vector.md",
+      "key": "v-92bbf354",
+      "path": "/2022/07/29/vector/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "负向量",
+          "slug": "负向量"
+        }
+      ],
+      "summary": "\n要得到任意维度向量的负向量,只需要简单地将向量地每一个分量变负即可.数学表达式如下.\n`\n-[a1,a2,...,an-1,an] = [-a1,-a2,...,-an-1,-an]\n`\n几何意义： 向量变负，得到跟当前向量大小相等，方向相反的向量. ...",
+      "id": "blog",
+      "pid": "blog"
+    },
+    {
+      "title": "世界坐标和本地坐标",
+      "frontmatter": {
+        "title": "世界坐标和本地坐标",
+        "date": "2022-11-23T00:00:00.000Z",
+        "tags": [
+          "3D图形"
+        ],
+        "description": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/WebGL/2022-11-23-basics.html",
+      "relativePath": "_posts/WebGL/2022-11-23-basics.md",
+      "key": "v-17d2a884",
+      "path": "/2022/11/23/basics/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "世界坐标和本地坐标",
+          "slug": "世界坐标和本地坐标"
+        }
+      ],
+      "summary": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
+      "id": "blog",
+      "pid": "blog"
     },
     {
       "frontmatter": {
@@ -562,6 +602,15 @@ export const siteData = {
     },
     {
       "frontmatter": {
+        "layout": "FrontmatterPagination",
+        "title": "3D图形 Tag"
+      },
+      "regularPath": "/tag/3D%E5%9B%BE%E5%BD%A2/",
+      "key": "v-2b4aa142",
+      "path": "/tag/3D图形/"
+    },
+    {
+      "frontmatter": {
         "layout": "Layout",
         "title": "Page 2 | 貼文"
       },
@@ -580,7 +629,7 @@ export const siteData = {
       }
     ],
     "sitemap": {
-      "hostname": "http://blog.glinsunai.com"
+      "hostname": "https://myron-blog.netlify.app"
     },
     "comment": {
       "service": "vssue",
@@ -591,6 +640,8 @@ export const siteData = {
       "clientId": "9fadcba1f59dfb8f17b7",
       "clientSecret": "dbcb5aae3c3b6e9e88332b06ae2230d6629d25fa"
     },
+    "nextLinks": true,
+    "prevLinks": true,
     "nav": [
       {
         "text": "About",

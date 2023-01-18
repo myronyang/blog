@@ -21,11 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-f17081e2",
+    name: "v-00ddcb3c",
     path: "/2018/10/27/javascript-async/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-f17081e2").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-00ddcb3c").then(next)
     },
   },
   {
@@ -33,15 +33,15 @@ export const routes = [
     redirect: "/2018/10/27/javascript-async/"
   },
   {
-    path: "/_posts/2018-10-27-javascript-async.html",
+    path: "/_posts/Javascript/2018-10-27-javascript-async.html",
     redirect: "/2018/10/27/javascript-async/"
   },
   {
-    name: "v-42f43eae",
+    name: "v-3ee8e8a8",
     path: "/2018/09/25/javascript-closure/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-42f43eae").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-3ee8e8a8").then(next)
     },
   },
   {
@@ -49,31 +49,15 @@ export const routes = [
     redirect: "/2018/09/25/javascript-closure/"
   },
   {
-    path: "/_posts/2018-9-25-javascript-closure.html",
+    path: "/_posts/Javascript/2018-9-25-javascript-closure.html",
     redirect: "/2018/09/25/javascript-closure/"
   },
   {
-    name: "v-7cbf6b2e",
-    path: "/2018/09/06/business-standard/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-7cbf6b2e").then(next)
-    },
-  },
-  {
-    path: "/2018/09/06/business-standard/index.html",
-    redirect: "/2018/09/06/business-standard/"
-  },
-  {
-    path: "/_posts/2018-9-6-business-standard.html",
-    redirect: "/2018/09/06/business-standard/"
-  },
-  {
-    name: "v-7b707e42",
+    name: "v-48e6157c",
     path: "/2018/09/05/javascript-prototype/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-7b707e42").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-48e6157c").then(next)
     },
   },
   {
@@ -81,15 +65,31 @@ export const routes = [
     redirect: "/2018/09/05/javascript-prototype/"
   },
   {
-    path: "/_posts/2018-9-5-javascript-prototype.html",
+    path: "/_posts/Javascript/2018-9-5-javascript-prototype.html",
     redirect: "/2018/09/05/javascript-prototype/"
   },
   {
-    name: "v-5dd18d09",
+    name: "v-2b18b14c",
+    path: "/2018/09/06/business-standard/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-2b18b14c").then(next)
+    },
+  },
+  {
+    path: "/2018/09/06/business-standard/index.html",
+    redirect: "/2018/09/06/business-standard/"
+  },
+  {
+    path: "/_posts/Javascript/2018-9-6-business-standard.html",
+    redirect: "/2018/09/06/business-standard/"
+  },
+  {
+    name: "v-5fbca62e",
     path: "/2019/04/05/javascript-design/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-5dd18d09").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-5fbca62e").then(next)
     },
   },
   {
@@ -97,15 +97,15 @@ export const routes = [
     redirect: "/2019/04/05/javascript-design/"
   },
   {
-    path: "/_posts/2019-4-5-javascript-design.html",
+    path: "/_posts/Javascript/2019-4-5-javascript-design.html",
     redirect: "/2019/04/05/javascript-design/"
   },
   {
-    name: "v-06774269",
+    name: "v-0831abac",
     path: "/2019/05/29/utils-func/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-06774269").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-0831abac").then(next)
     },
   },
   {
@@ -113,15 +113,15 @@ export const routes = [
     redirect: "/2019/05/29/utils-func/"
   },
   {
-    path: "/_posts/2019-5-29-utils-func.html",
+    path: "/_posts/Javascript/2019-5-29-utils-func.html",
     redirect: "/2019/05/29/utils-func/"
   },
   {
-    name: "v-dcfe636e",
+    name: "v-689ea80a",
     path: "/2019/05/28/webpack-init/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-dcfe636e").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-689ea80a").then(next)
     },
   },
   {
@@ -129,8 +129,40 @@ export const routes = [
     redirect: "/2019/05/28/webpack-init/"
   },
   {
-    path: "/_posts/2019-5-28-webpack-init.html",
+    path: "/_posts/Javascript/2019-5-28-webpack-init.html",
     redirect: "/2019/05/28/webpack-init/"
+  },
+  {
+    name: "v-92bbf354",
+    path: "/2022/07/29/vector/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-92bbf354").then(next)
+    },
+  },
+  {
+    path: "/2022/07/29/vector/index.html",
+    redirect: "/2022/07/29/vector/"
+  },
+  {
+    path: "/_posts/WebGL/2022-7-28-vector.html",
+    redirect: "/2022/07/29/vector/"
+  },
+  {
+    name: "v-17d2a884",
+    path: "/2022/11/23/basics/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-17d2a884").then(next)
+    },
+  },
+  {
+    path: "/2022/11/23/basics/index.html",
+    redirect: "/2022/11/23/basics/"
+  },
+  {
+    path: "/_posts/WebGL/2022-11-23-basics.html",
+    redirect: "/2022/11/23/basics/"
   },
   {
     name: "v-424df898",
@@ -222,6 +254,19 @@ export const routes = [
   {
     path: "/tag/Webpack/index.html",
     redirect: "/tag/Webpack/"
+  },
+  {
+    name: "v-2b4aa142",
+    path: "/tag/3D图形/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-2b4aa142").then(next)
+    },
+    meta: {"pid":"tag","id":"3D图形"}
+  },
+  {
+    path: "/tag/3D图形/index.html",
+    redirect: "/tag/3D图形/"
   },
   {
     name: "v-c3507bb6",

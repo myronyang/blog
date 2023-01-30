@@ -10,18 +10,9 @@ export default {
       "pageKeys": [
         "v-00ddcb3c",
         "v-3ee8e8a8",
-        "v-0831abac",
         "v-48e6157c",
-        "v-5fbca62e"
-      ]
-    },
-    "工具": {
-      "key": "工具",
-      "scope": "tag",
-      "path": "/tag/工具/",
-      "pageKeys": [
-        "v-0831abac",
-        "v-689ea80a"
+        "v-5fbca62e",
+        "v-0831abac"
       ]
     },
     "业务": {
@@ -55,6 +46,15 @@ export default {
       "path": "/tag/Webpack/",
       "pageKeys": [
         "v-689ea80a"
+      ]
+    },
+    "工具": {
+      "key": "工具",
+      "scope": "tag",
+      "path": "/tag/工具/",
+      "pageKeys": [
+        "v-689ea80a",
+        "v-0831abac"
       ]
     }
   }

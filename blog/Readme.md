@@ -2,7 +2,7 @@
 title: About
 ---
 
-<h1 class="beginning"> Hi, I'm Peng Yang</h1>
+<h1 class="beginning"> Hi, Welcome</h1>
 
 
 As you can tell from my posts, I'm a software engineer. Currently, I work and live in [Wuhan](https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89/106764). I will update the post from time to time, Hope you like it!

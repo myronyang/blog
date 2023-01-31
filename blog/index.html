@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>貼文 | PENG BlOG</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Web development, WebGL, JavaScript">
+    
+    <link rel="preload" href="/assets/css/0.styles.b79562cf.css" as="style"><link rel="preload" href="/assets/js/app.9932d041.js" as="script"><link rel="preload" href="/assets/js/7.f5f53833.js" as="script"><link rel="preload" href="/assets/js/14.9f5d9ef3.js" as="script"><link rel="preload" href="/assets/js/4.07edc6d3.js" as="script"><link rel="prefetch" href="/assets/js/1.b31eae2a.js"><link rel="prefetch" href="/assets/js/10.db774d39.js"><link rel="prefetch" href="/assets/js/11.d1188a4d.js"><link rel="prefetch" href="/assets/js/12.94def00a.js"><link rel="prefetch" href="/assets/js/13.16f2d126.js"><link rel="prefetch" href="/assets/js/15.8299e824.js"><link rel="prefetch" href="/assets/js/16.a64bf65d.js"><link rel="prefetch" href="/assets/js/17.7792ac8f.js"><link rel="prefetch" href="/assets/js/18.dbb09ae5.js"><link rel="prefetch" href="/assets/js/19.cae2a26d.js"><link rel="prefetch" href="/assets/js/20.e02ccde6.js"><link rel="prefetch" href="/assets/js/21.35f00429.js"><link rel="prefetch" href="/assets/js/22.dd6c4c6d.js"><link rel="prefetch" href="/assets/js/23.bf727a4f.js"><link rel="prefetch" href="/assets/js/5.0cd42b75.js"><link rel="prefetch" href="/assets/js/6.4dcb66aa.js"><link rel="prefetch" href="/assets/js/8.c7c42311.js"><link rel="prefetch" href="/assets/js/9.f34a57b3.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.d31cc0c5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b79562cf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">PENG BlOG </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">About</a></li><li class="nav-item"><a href="/blog/" aria-current="page" class="nav-link router-link-exact-active router-link-active">博客</a></li><li class="nav-item"><a href="/tag/" class="nav-link">标签</a></li><li class="nav-item"><a href="https://github.com/myronyang" target="_blank" rel="noopener noreferrer" class="nav-link external">Github</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">PENG BlOG </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">About</a></li><li class="mobile-nav-item"><a href="/blog/" aria-current="page" class="nav-link router-link-exact-active router-link-active">博客</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">标签</a></li><li class="mobile-nav-item"><a href="https://github.com/myronyang" target="_blank" rel="noopener noreferrer" class="nav-link external">Github</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div><div id="base-list-layout"><div itemscope="itemscope" itemtype="http://schema.org/Blog" class="ui-posts"><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2022/11/23/basics/"> <header itemprop="name headline" class="ui-post-title"><a href="/2022/11/23/basics/" class="nav-link">世界坐标和本地坐标</a></header> <p itemprop="description" class="ui-post-summary">
+        
+[[toc]]
+::: danger STOP
+危险区域，禁止通行
+:::
+::: details 点击查看代码
+`js
+console.log('你好，VuePress！')
+`
+::: ...
+      </p> <footer><!----> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2022-11-23T00:00:00.000Z">
+            Wed Nov 23 2022
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/3D图形">
+            3D图形
+          </a></div></footer></article><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2022/07/29/vector/"> <header itemprop="name headline" class="ui-post-title"><a href="/2022/07/29/vector/" class="nav-link">向量的相关计算</a></header> <p itemprop="description" class="ui-post-summary">
+        
+2D向量的长度计算直接把向量的各个分量的平方加起来然后进行开方得到的数值就是向量的模.
+`
+‖ν‖ = √(v1² + v2² + ... + vn-1² + vn²)
+`
+3D的向量的模的计算与2D向量差不多
+`
+// 2D向量的模
+‖ν‖ = √(vx² + vy²)
+// 3D向量的模
+‖ν‖ = √(vx² + vy² + vz²)
+` ...
+      </p> <footer><!----> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2022-7-29">
+            Fri Jul 29 2022
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/3D图形">
+            3D图形
+          </a></div></footer></article><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2019/05/29/utils-func/"> <header itemprop="name headline" class="ui-post-title"><a href="/2019/05/29/utils-func/" class="nav-link">常用函数</a></header> <p itemprop="description" class="ui-post-summary">
+        
+` js
+/**
+ 存储Storage
+ */
+export const Storage = {
+  set (name, content) {
+    if (!name) return
+    if (typeof content !== 'string') {
+      content = JSON.stringify(content)
+    } ...
+      </p> <footer><!----> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2019-5-29">
+            Wed May 29 2019
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/Javascript">
+            Javascript
+          </a><a href="/tag/工具">
+            工具
+          </a></div></footer></article><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2019/05/28/webpack-init/"> <header itemprop="name headline" class="ui-post-title"><a href="/2019/05/28/webpack-init/" class="nav-link">Webpack 初始化</a></header> <p itemprop="description" class="ui-post-summary">
+        详细配置参考 webpack中文文档
+创建项目目录  cd project
+在命令行工具中运行 yarn init
+安装webpack包 yarn install webpack webpack-cli --dev
+安装webpack插件 `yarn install we ...
+      </p> <footer><!----> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2019-5-28">
+            Tue May 28 2019
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/Webpack">
+            Webpack
+          </a><a href="/tag/工具">
+            工具
+          </a></div></footer></article><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2019/04/05/javascript-design/"> <header itemprop="name headline" class="ui-post-title"><a href="/2019/04/05/javascript-design/" class="nav-link">JS设计模式</a></header> <p itemprop="description" class="ui-post-summary">
+        何为设计
+即按照一种思路或者标准来实现功能
+功能相同，可以由不同设计方案来实现
+伴随需求的增加，设计的作用才能体现出来
+UNIX/LINUX设计思想
+参考文献 《UNIX/LINUX设计思想》
+准则1: 小即是美 ...
+      </p> <footer><!----> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2019-4-5">
+            Fri Apr 05 2019
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/Javascript">
+            Javascript
+          </a><a href="/tag/设计模式">
+            设计模式
+          </a></div></footer></article></div> <!----></div></div></div> <footer class="footer" data-v-8eb634d6><div class="footer-left-wrap" data-v-8eb634d6><ul class="contact" data-v-8eb634d6><li class="contact-item" data-v-8eb634d6><a href="https://github.com/myronyang" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-8eb634d6><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" data-v-8eb634d6><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" data-v-8eb634d6></path></svg>
+          
+        </a></li><li class="contact-item" data-v-8eb634d6><a href="/blog/821253835@qq.com.html" class="nav-link" data-v-8eb634d6><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" data-v-8eb634d6><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" data-v-8eb634d6></path><polyline points="22,6 12,13 2,6" data-v-8eb634d6></polyline></svg>
+          
+        </a></li><li class="contact-item" data-v-8eb634d6><a href="https://tjui.netlify.app/#/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-8eb634d6><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe" data-v-8eb634d6><circle cx="12" cy="12" r="10" data-v-8eb634d6></circle><line x1="2" y1="12" x2="22" y2="12" data-v-8eb634d6></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" data-v-8eb634d6></path></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-8eb634d6><ul class="copyright" data-v-8eb634d6><li class="copyright-item" data-v-8eb634d6>Myron Yang © 2020-2021</li></ul></div></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.9932d041.js" defer></script><script src="/assets/js/7.f5f53833.js" defer></script><script src="/assets/js/14.9f5d9ef3.js" defer></script><script src="/assets/js/4.07edc6d3.js" defer></script>
+  </body>
+</html>

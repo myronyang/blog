@@ -10,34 +10,9 @@ export default {
       "pageKeys": [
         "v-00ddcb3c",
         "v-3ee8e8a8",
-        "v-48e6157c",
         "v-5fbca62e",
-        "v-0831abac"
-      ]
-    },
-    "业务": {
-      "key": "业务",
-      "scope": "tag",
-      "path": "/tag/业务/",
-      "pageKeys": [
-        "v-2b18b14c"
-      ]
-    },
-    "3D图形": {
-      "key": "3D图形",
-      "scope": "tag",
-      "path": "/tag/3D图形/",
-      "pageKeys": [
-        "v-17d2a884",
-        "v-92bbf354"
-      ]
-    },
-    "设计模式": {
-      "key": "设计模式",
-      "scope": "tag",
-      "path": "/tag/设计模式/",
-      "pageKeys": [
-        "v-5fbca62e"
+        "v-0831abac",
+        "v-48e6157c"
       ]
     },
     "Webpack": {
@@ -55,6 +30,31 @@ export default {
       "pageKeys": [
         "v-689ea80a",
         "v-0831abac"
+      ]
+    },
+    "设计模式": {
+      "key": "设计模式",
+      "scope": "tag",
+      "path": "/tag/设计模式/",
+      "pageKeys": [
+        "v-5fbca62e"
+      ]
+    },
+    "业务": {
+      "key": "业务",
+      "scope": "tag",
+      "path": "/tag/业务/",
+      "pageKeys": [
+        "v-2b18b14c"
+      ]
+    },
+    "3D图形": {
+      "key": "3D图形",
+      "scope": "tag",
+      "path": "/tag/3D图形/",
+      "pageKeys": [
+        "v-17d2a884",
+        "v-92bbf354"
       ]
     }
   }

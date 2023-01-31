@@ -37,38 +37,6 @@ export const routes = [
     redirect: "/2018/10/27/javascript-async/"
   },
   {
-    name: "v-2b18b14c",
-    path: "/2018/09/06/business-standard/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-2b18b14c").then(next)
-    },
-  },
-  {
-    path: "/2018/09/06/business-standard/index.html",
-    redirect: "/2018/09/06/business-standard/"
-  },
-  {
-    path: "/_posts/Javascript/2018-9-6-business-standard.html",
-    redirect: "/2018/09/06/business-standard/"
-  },
-  {
-    name: "v-17d2a884",
-    path: "/2022/11/23/basics/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-17d2a884").then(next)
-    },
-  },
-  {
-    path: "/2022/11/23/basics/index.html",
-    redirect: "/2022/11/23/basics/"
-  },
-  {
-    path: "/_posts/WebGL/2022-11-23-basics.html",
-    redirect: "/2022/11/23/basics/"
-  },
-  {
     name: "v-3ee8e8a8",
     path: "/2018/09/25/javascript-closure/",
     component: GlobalLayout,
@@ -83,38 +51,6 @@ export const routes = [
   {
     path: "/_posts/Javascript/2018-9-25-javascript-closure.html",
     redirect: "/2018/09/25/javascript-closure/"
-  },
-  {
-    name: "v-48e6157c",
-    path: "/2018/09/05/javascript-prototype/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-48e6157c").then(next)
-    },
-  },
-  {
-    path: "/2018/09/05/javascript-prototype/index.html",
-    redirect: "/2018/09/05/javascript-prototype/"
-  },
-  {
-    path: "/_posts/Javascript/2018-9-5-javascript-prototype.html",
-    redirect: "/2018/09/05/javascript-prototype/"
-  },
-  {
-    name: "v-5fbca62e",
-    path: "/2019/04/05/javascript-design/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-5fbca62e").then(next)
-    },
-  },
-  {
-    path: "/2019/04/05/javascript-design/index.html",
-    redirect: "/2019/04/05/javascript-design/"
-  },
-  {
-    path: "/_posts/Javascript/2019-4-5-javascript-design.html",
-    redirect: "/2019/04/05/javascript-design/"
   },
   {
     name: "v-689ea80a",
@@ -133,6 +69,22 @@ export const routes = [
     redirect: "/2019/05/28/webpack-init/"
   },
   {
+    name: "v-5fbca62e",
+    path: "/2019/04/05/javascript-design/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-5fbca62e").then(next)
+    },
+  },
+  {
+    path: "/2019/04/05/javascript-design/index.html",
+    redirect: "/2019/04/05/javascript-design/"
+  },
+  {
+    path: "/_posts/Javascript/2019-4-5-javascript-design.html",
+    redirect: "/2019/04/05/javascript-design/"
+  },
+  {
     name: "v-0831abac",
     path: "/2019/05/29/utils-func/",
     component: GlobalLayout,
@@ -147,6 +99,54 @@ export const routes = [
   {
     path: "/_posts/Javascript/2019-5-29-utils-func.html",
     redirect: "/2019/05/29/utils-func/"
+  },
+  {
+    name: "v-2b18b14c",
+    path: "/2018/09/06/business-standard/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-2b18b14c").then(next)
+    },
+  },
+  {
+    path: "/2018/09/06/business-standard/index.html",
+    redirect: "/2018/09/06/business-standard/"
+  },
+  {
+    path: "/_posts/Javascript/2018-9-6-business-standard.html",
+    redirect: "/2018/09/06/business-standard/"
+  },
+  {
+    name: "v-48e6157c",
+    path: "/2018/09/05/javascript-prototype/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-48e6157c").then(next)
+    },
+  },
+  {
+    path: "/2018/09/05/javascript-prototype/index.html",
+    redirect: "/2018/09/05/javascript-prototype/"
+  },
+  {
+    path: "/_posts/Javascript/2018-9-5-javascript-prototype.html",
+    redirect: "/2018/09/05/javascript-prototype/"
+  },
+  {
+    name: "v-17d2a884",
+    path: "/2022/11/23/basics/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-17d2a884").then(next)
+    },
+  },
+  {
+    path: "/2022/11/23/basics/index.html",
+    redirect: "/2022/11/23/basics/"
+  },
+  {
+    path: "/_posts/WebGL/2022-11-23-basics.html",
+    redirect: "/2022/11/23/basics/"
   },
   {
     name: "v-92bbf354",
@@ -204,45 +204,6 @@ export const routes = [
     redirect: "/tag/Javascript/"
   },
   {
-    name: "v-038768cf",
-    path: "/tag/业务/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-038768cf").then(next)
-    },
-    meta: {"pid":"tag","id":"业务"}
-  },
-  {
-    path: "/tag/业务/index.html",
-    redirect: "/tag/业务/"
-  },
-  {
-    name: "v-2b4aa142",
-    path: "/tag/3D图形/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-2b4aa142").then(next)
-    },
-    meta: {"pid":"tag","id":"3D图形"}
-  },
-  {
-    path: "/tag/3D图形/index.html",
-    redirect: "/tag/3D图形/"
-  },
-  {
-    name: "v-ae3001b6",
-    path: "/tag/设计模式/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-ae3001b6").then(next)
-    },
-    meta: {"pid":"tag","id":"设计模式"}
-  },
-  {
-    path: "/tag/设计模式/index.html",
-    redirect: "/tag/设计模式/"
-  },
-  {
     name: "v-ad8a01a8",
     path: "/tag/Webpack/",
     component: GlobalLayout,
@@ -267,6 +228,45 @@ export const routes = [
   {
     path: "/tag/工具/index.html",
     redirect: "/tag/工具/"
+  },
+  {
+    name: "v-ae3001b6",
+    path: "/tag/设计模式/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-ae3001b6").then(next)
+    },
+    meta: {"pid":"tag","id":"设计模式"}
+  },
+  {
+    path: "/tag/设计模式/index.html",
+    redirect: "/tag/设计模式/"
+  },
+  {
+    name: "v-038768cf",
+    path: "/tag/业务/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-038768cf").then(next)
+    },
+    meta: {"pid":"tag","id":"业务"}
+  },
+  {
+    path: "/tag/业务/index.html",
+    redirect: "/tag/业务/"
+  },
+  {
+    name: "v-2b4aa142",
+    path: "/tag/3D图形/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterPagination", "v-2b4aa142").then(next)
+    },
+    meta: {"pid":"tag","id":"3D图形"}
+  },
+  {
+    path: "/tag/3D图形/index.html",
+    redirect: "/tag/3D图形/"
   },
   {
     name: "v-c3507bb6",

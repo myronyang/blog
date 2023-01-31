@@ -11,15 +11,13 @@ export const siteData = {
       "title": "About",
       "frontmatter": {
         "title": "About",
-        "description": " Hi, I'm Peng Yang\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan ..."
+        "description": " Hi, Welcome\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan. I wi ..."
       },
       "regularPath": "/",
       "relativePath": "Readme.md",
       "key": "v-2e4a6e1f",
       "path": "/",
-      "summary": " Hi, I'm Peng Yang\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan ...",
-      "lastUpdated": "1/18/2023, 6:17:18 PM",
-      "lastUpdatedTimestamp": 1674037038000
+      "summary": " Hi, Welcome\nAs you can tell from my posts, I'm a software engineer. Currently, I work and live in Wuhan. I wi ..."
     },
     {
       "title": "JS异步",
@@ -96,9 +94,223 @@ export const siteData = {
       ],
       "summary": "JS 为何会有异步\nJS 是单线程的语言，所谓“单线程”就是一根筋，对于拿到的程序，一行一行的执行，上面的没执行为完，那就等着。\n`js\nvar i,\n\tt = Date.now()\nfor (i = 0; i < 100000000; i++) {\n\t// ...\n}\nconsole.log(Date.now() - t) // 250\n` ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
+      "pid": "blog"
+    },
+    {
+      "title": "JS闭包",
+      "frontmatter": {
+        "title": "JS闭包",
+        "date": "2018-9-25",
+        "tags": [
+          "Javascript"
+        ],
+        "description": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/Javascript/2018-9-25-javascript-closure.html",
+      "relativePath": "_posts/Javascript/2018-9-25-javascript-closure.md",
+      "key": "v-3ee8e8a8",
+      "path": "/2018/09/25/javascript-closure/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "执行上下文",
+          "slug": "执行上下文"
+        },
+        {
+          "level": 2,
+          "title": "this",
+          "slug": "this"
+        },
+        {
+          "level": 2,
+          "title": "执行上下文栈",
+          "slug": "执行上下文栈"
+        },
+        {
+          "level": 2,
+          "title": "作用域",
+          "slug": "作用域"
+        },
+        {
+          "level": 2,
+          "title": "自由变量到作用域链",
+          "slug": "自由变量到作用域链"
+        },
+        {
+          "level": 2,
+          "title": "闭包",
+          "slug": "闭包"
+        }
+      ],
+      "summary": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
+      "id": "blog",
+      "pid": "blog"
+    },
+    {
+      "title": "Webpack 初始化",
+      "frontmatter": {
+        "title": "Webpack 初始化",
+        "date": "2019-5-28",
+        "tags": [
+          "Webpack",
+          "工具"
+        ],
+        "description": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/Javascript/2019-5-28-webpack-init.html",
+      "relativePath": "_posts/Javascript/2019-5-28-webpack-init.md",
+      "key": "v-689ea80a",
+      "path": "/2019/05/28/webpack-init/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webpack 初始化",
+          "slug": "webpack-初始化"
+        }
+      ],
+      "summary": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
+      "id": "blog",
+      "pid": "blog"
+    },
+    {
+      "title": "JS设计模式",
+      "frontmatter": {
+        "title": "JS设计模式",
+        "date": "2019-4-5",
+        "tags": [
+          "Javascript",
+          "设计模式"
+        ],
+        "description": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/Javascript/2019-4-5-javascript-design.html",
+      "relativePath": "_posts/Javascript/2019-4-5-javascript-design.md",
+      "key": "v-5fbca62e",
+      "path": "/2019/04/05/javascript-design/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "设计原则",
+          "slug": "设计原则"
+        },
+        {
+          "level": 3,
+          "title": "何为设计",
+          "slug": "何为设计"
+        },
+        {
+          "level": 3,
+          "title": "UNIX/LINUX设计思想",
+          "slug": "unix-linux设计思想"
+        },
+        {
+          "level": 2,
+          "title": "SOLID五大设计原则",
+          "slug": "solid五大设计原则"
+        },
+        {
+          "level": 2,
+          "title": "设计模式",
+          "slug": "设计模式"
+        },
+        {
+          "level": 3,
+          "title": "工厂模式",
+          "slug": "工厂模式"
+        },
+        {
+          "level": 3,
+          "title": "单例模式",
+          "slug": "单例模式"
+        },
+        {
+          "level": 3,
+          "title": "适配器模式",
+          "slug": "适配器模式"
+        },
+        {
+          "level": 3,
+          "title": "装饰器模式",
+          "slug": "装饰器模式"
+        }
+      ],
+      "summary": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
+      "id": "blog",
+      "pid": "blog"
+    },
+    {
+      "title": "常用函数",
+      "frontmatter": {
+        "title": "常用函数",
+        "date": "2019-5-29",
+        "tags": [
+          "Javascript",
+          "工具"
+        ],
+        "description": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
+        "layout": "Post",
+        "permalink": "/:year/:month/:day/:slug"
+      },
+      "regularPath": "/_posts/Javascript/2019-5-29-utils-func.html",
+      "relativePath": "_posts/Javascript/2019-5-29-utils-func.md",
+      "key": "v-0831abac",
+      "path": "/2019/05/29/utils-func/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "localStorage操作",
+          "slug": "localstorage操作"
+        },
+        {
+          "level": 3,
+          "title": "Cookie操作",
+          "slug": "cookie操作"
+        },
+        {
+          "level": 3,
+          "title": "获取url参数",
+          "slug": "获取url参数"
+        },
+        {
+          "level": 3,
+          "title": "时间戳转换",
+          "slug": "时间戳转换"
+        },
+        {
+          "level": 3,
+          "title": "返回顶部",
+          "slug": "返回顶部"
+        },
+        {
+          "level": 3,
+          "title": "函数防抖",
+          "slug": "函数防抖"
+        },
+        {
+          "level": 3,
+          "title": "函数节流",
+          "slug": "函数节流"
+        },
+        {
+          "level": 3,
+          "title": "获取指定范围随机数",
+          "slug": "获取指定范围随机数"
+        },
+        {
+          "level": 3,
+          "title": "获取文件后缀",
+          "slug": "获取文件后缀"
+        }
+      ],
+      "summary": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
+      "id": "blog",
+      "pid": "blog"
     },
     {
       "title": "开发规范",
@@ -205,92 +417,7 @@ export const siteData = {
       ],
       "summary": "BEM思想\nBEM的意思就是块（block）、元素（element）、修饰符（modifier）,是由Yandex团队提出的一种前端命名方法论。这种巧妙的命名方法让你的CSS类对其他开发者来说更加透明而且更有意义。BEM命名约定更加严格，而且包含更多的信息，它们用于一个团队开发一个耗时的大项目。\n命名约定的模式如下：\n` css{3}\n.block{} ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
-    },
-    {
-      "title": "世界坐标和本地坐标",
-      "frontmatter": {
-        "title": "世界坐标和本地坐标",
-        "date": "2022-11-23T00:00:00.000Z",
-        "tags": [
-          "3D图形"
-        ],
-        "description": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/WebGL/2022-11-23-basics.html",
-      "relativePath": "_posts/WebGL/2022-11-23-basics.md",
-      "key": "v-17d2a884",
-      "path": "/2022/11/23/basics/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "世界坐标和本地坐标",
-          "slug": "世界坐标和本地坐标"
-        }
-      ],
-      "summary": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
-    },
-    {
-      "title": "JS闭包",
-      "frontmatter": {
-        "title": "JS闭包",
-        "date": "2018-9-25",
-        "tags": [
-          "Javascript"
-        ],
-        "description": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/Javascript/2018-9-25-javascript-closure.html",
-      "relativePath": "_posts/Javascript/2018-9-25-javascript-closure.md",
-      "key": "v-3ee8e8a8",
-      "path": "/2018/09/25/javascript-closure/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "执行上下文",
-          "slug": "执行上下文"
-        },
-        {
-          "level": 2,
-          "title": "this",
-          "slug": "this"
-        },
-        {
-          "level": 2,
-          "title": "执行上下文栈",
-          "slug": "执行上下文栈"
-        },
-        {
-          "level": 2,
-          "title": "作用域",
-          "slug": "作用域"
-        },
-        {
-          "level": 2,
-          "title": "自由变量到作用域链",
-          "slug": "自由变量到作用域链"
-        },
-        {
-          "level": 2,
-          "title": "闭包",
-          "slug": "闭包"
-        }
-      ],
-      "summary": "\n什么是“执行上下文”(也叫做“执行上下文环境”）？我们先不定义，先看以下几种情况。\n第一种情况，变量声明，默认赋值为undefined\n首先我们在浏览器控制台来调试一段代码。\n`js\nconsole.log(a) // Uncaught ReferenceError: a is not defined\nconsole.log(a) // undefined\nv ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
+      "pid": "blog"
     },
     {
       "title": "JS原型",
@@ -352,179 +479,34 @@ export const siteData = {
       ],
       "summary": "\njs有六种数据类型Number、String、Boolean、Undefined、Null（ECMAScript 2015新增了一种基本数据类型：symbol）\n我们可以用typeof检测数据类型\n`js\ntypeof 123  // Number\ntypeof 'abc' // String\ntypeof true  // Boolean\ntypeof undefin ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
+      "pid": "blog"
     },
     {
-      "title": "JS设计模式",
+      "title": "世界坐标和本地坐标",
       "frontmatter": {
-        "title": "JS设计模式",
-        "date": "2019-4-5",
+        "title": "世界坐标和本地坐标",
+        "date": "2022-11-23T00:00:00.000Z",
         "tags": [
-          "Javascript",
-          "设计模式"
+          "3D图形"
         ],
-        "description": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
+        "description": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
-      "regularPath": "/_posts/Javascript/2019-4-5-javascript-design.html",
-      "relativePath": "_posts/Javascript/2019-4-5-javascript-design.md",
-      "key": "v-5fbca62e",
-      "path": "/2019/04/05/javascript-design/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "设计原则",
-          "slug": "设计原则"
-        },
-        {
-          "level": 3,
-          "title": "何为设计",
-          "slug": "何为设计"
-        },
-        {
-          "level": 3,
-          "title": "UNIX/LINUX设计思想",
-          "slug": "unix-linux设计思想"
-        },
-        {
-          "level": 2,
-          "title": "SOLID五大设计原则",
-          "slug": "solid五大设计原则"
-        },
-        {
-          "level": 2,
-          "title": "设计模式",
-          "slug": "设计模式"
-        },
-        {
-          "level": 3,
-          "title": "工厂模式",
-          "slug": "工厂模式"
-        },
-        {
-          "level": 3,
-          "title": "单例模式",
-          "slug": "单例模式"
-        },
-        {
-          "level": 3,
-          "title": "适配器模式",
-          "slug": "适配器模式"
-        },
-        {
-          "level": 3,
-          "title": "装饰器模式",
-          "slug": "装饰器模式"
-        }
-      ],
-      "summary": "何为设计\n即按照一种思路或者标准来实现功能\n功能相同，可以由不同设计方案来实现\n伴随需求的增加，设计的作用才能体现出来\nUNIX/LINUX设计思想\n参考文献 《UNIX/LINUX设计思想》\n准则1: 小即是美 ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
-    },
-    {
-      "title": "Webpack 初始化",
-      "frontmatter": {
-        "title": "Webpack 初始化",
-        "date": "2019-5-28",
-        "tags": [
-          "Webpack",
-          "工具"
-        ],
-        "description": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/Javascript/2019-5-28-webpack-init.html",
-      "relativePath": "_posts/Javascript/2019-5-28-webpack-init.md",
-      "key": "v-689ea80a",
-      "path": "/2019/05/28/webpack-init/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "webpack 初始化",
-          "slug": "webpack-初始化"
-        }
-      ],
-      "summary": "详细配置参考 webpack中文文档\n创建项目目录  cd project\n在命令行工具中运行 yarn init\n安装webpack包 yarn install webpack webpack-cli --dev\n安装webpack插件 `yarn install we ...",
-      "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
-    },
-    {
-      "title": "常用函数",
-      "frontmatter": {
-        "title": "常用函数",
-        "date": "2019-5-29",
-        "tags": [
-          "Javascript",
-          "工具"
-        ],
-        "description": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
-        "layout": "Post",
-        "permalink": "/:year/:month/:day/:slug"
-      },
-      "regularPath": "/_posts/Javascript/2019-5-29-utils-func.html",
-      "relativePath": "_posts/Javascript/2019-5-29-utils-func.md",
-      "key": "v-0831abac",
-      "path": "/2019/05/29/utils-func/",
+      "regularPath": "/_posts/WebGL/2022-11-23-basics.html",
+      "relativePath": "_posts/WebGL/2022-11-23-basics.md",
+      "key": "v-17d2a884",
+      "path": "/2022/11/23/basics/",
       "headers": [
         {
           "level": 3,
-          "title": "localStorage操作",
-          "slug": "localstorage操作"
-        },
-        {
-          "level": 3,
-          "title": "Cookie操作",
-          "slug": "cookie操作"
-        },
-        {
-          "level": 3,
-          "title": "获取url参数",
-          "slug": "获取url参数"
-        },
-        {
-          "level": 3,
-          "title": "时间戳转换",
-          "slug": "时间戳转换"
-        },
-        {
-          "level": 3,
-          "title": "返回顶部",
-          "slug": "返回顶部"
-        },
-        {
-          "level": 3,
-          "title": "函数防抖",
-          "slug": "函数防抖"
-        },
-        {
-          "level": 3,
-          "title": "函数节流",
-          "slug": "函数节流"
-        },
-        {
-          "level": 3,
-          "title": "获取指定范围随机数",
-          "slug": "获取指定范围随机数"
-        },
-        {
-          "level": 3,
-          "title": "获取文件后缀",
-          "slug": "获取文件后缀"
+          "title": "世界坐标和本地坐标",
+          "slug": "世界坐标和本地坐标"
         }
       ],
-      "summary": "\n` js\n/**\n 存储Storage\n */\nexport const Storage = {\n  set (name, content) {\n    if (!name) return\n    if (typeof content !== 'string') {\n      content = JSON.stringify(content)\n    } ...",
+      "summary": "\n[[toc]]\n::: danger STOP\n危险区域，禁止通行\n:::\n::: details 点击查看代码\n`js\nconsole.log('你好，VuePress！')\n`\n::: ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
+      "pid": "blog"
     },
     {
       "title": "向量的相关计算",
@@ -534,7 +516,7 @@ export const siteData = {
         "tags": [
           "3D图形"
         ],
-        "description": "\n要得到任意维度向量的负向量,只需要简单地将向量地每一个分量变负即可.数学表达式如下.\n`\n-[a1,a2,...,an-1,an] = [-a1,-a2,...,-an-1,-an]\n`\n几何意义： 向量变负，得到跟当前向量大小相等，方向相反的向量. ...",
+        "description": "\n2D向量的长度计算直接把向量的各个分量的平方加起来然后进行开方得到的数值就是向量的模.\n`\n‖ν‖ = √(v1² + v2² + ... + vn-1² + vn²)\n`\n3D的向量的模的计算与2D向量差不多\n`\n// 2D向量的模\n‖ν‖ = √(vx² + vy²)\n// 3D向量的模\n‖ν‖ = √(vx² + vy² + vz²)\n` ...",
         "layout": "Post",
         "permalink": "/:year/:month/:day/:slug"
       },
@@ -545,15 +527,43 @@ export const siteData = {
       "headers": [
         {
           "level": 3,
+          "title": "向量大小(向量的模)",
+          "slug": "向量大小-向量的模"
+        },
+        {
+          "level": 3,
           "title": "负向量",
           "slug": "负向量"
+        },
+        {
+          "level": 3,
+          "title": "标量与向量的乘法",
+          "slug": "标量与向量的乘法"
+        },
+        {
+          "level": 3,
+          "title": "法线(标准化向量)",
+          "slug": "法线-标准化向量"
+        },
+        {
+          "level": 3,
+          "title": "向量的加减法",
+          "slug": "向量的加减法"
+        },
+        {
+          "level": 3,
+          "title": "向量的点乘",
+          "slug": "向量的点乘"
+        },
+        {
+          "level": 3,
+          "title": "向量的叉乘",
+          "slug": "向量的叉乘"
         }
       ],
-      "summary": "\n要得到任意维度向量的负向量,只需要简单地将向量地每一个分量变负即可.数学表达式如下.\n`\n-[a1,a2,...,an-1,an] = [-a1,-a2,...,-an-1,-an]\n`\n几何意义： 向量变负，得到跟当前向量大小相等，方向相反的向量. ...",
+      "summary": "\n2D向量的长度计算直接把向量的各个分量的平方加起来然后进行开方得到的数值就是向量的模.\n`\n‖ν‖ = √(v1² + v2² + ... + vn-1² + vn²)\n`\n3D的向量的模的计算与2D向量差不多\n`\n// 2D向量的模\n‖ν‖ = √(vx² + vy²)\n// 3D向量的模\n‖ν‖ = √(vx² + vy² + vz²)\n` ...",
       "id": "blog",
-      "pid": "blog",
-      "lastUpdated": "1/18/2023, 6:04:28 PM",
-      "lastUpdatedTimestamp": 1674036268000
+      "pid": "blog"
     },
     {
       "frontmatter": {
@@ -585,33 +595,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "FrontmatterPagination",
-        "title": "业务 Tag"
-      },
-      "regularPath": "/tag/%E4%B8%9A%E5%8A%A1/",
-      "key": "v-038768cf",
-      "path": "/tag/业务/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterPagination",
-        "title": "3D图形 Tag"
-      },
-      "regularPath": "/tag/3D%E5%9B%BE%E5%BD%A2/",
-      "key": "v-2b4aa142",
-      "path": "/tag/3D图形/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterPagination",
-        "title": "设计模式 Tag"
-      },
-      "regularPath": "/tag/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/",
-      "key": "v-ae3001b6",
-      "path": "/tag/设计模式/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterPagination",
         "title": "Webpack Tag"
       },
       "regularPath": "/tag/Webpack/",
@@ -626,6 +609,33 @@ export const siteData = {
       "regularPath": "/tag/%E5%B7%A5%E5%85%B7/",
       "key": "v-97019ce8",
       "path": "/tag/工具/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterPagination",
+        "title": "设计模式 Tag"
+      },
+      "regularPath": "/tag/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/",
+      "key": "v-ae3001b6",
+      "path": "/tag/设计模式/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterPagination",
+        "title": "业务 Tag"
+      },
+      "regularPath": "/tag/%E4%B8%9A%E5%8A%A1/",
+      "key": "v-038768cf",
+      "path": "/tag/业务/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterPagination",
+        "title": "3D图形 Tag"
+      },
+      "regularPath": "/tag/3D%E5%9B%BE%E5%BD%A2/",
+      "key": "v-2b4aa142",
+      "path": "/tag/3D图形/"
     },
     {
       "frontmatter": {
